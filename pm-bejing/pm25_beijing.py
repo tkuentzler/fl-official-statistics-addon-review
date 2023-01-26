@@ -548,10 +548,10 @@ def run_model(data, model, features=None, station=None, col_to_predict=None, num
 
 
 def fed_model_fn():
-    """A function for TFF to create a model during federated learning and return it is the correct type.
+    """A function for TFF to create a model during federated learning and return it as the correct type.
 
     :return: The LSTM model to be used as federated models
-    :rtype: tff.learning.model
+    :rtype: tff.learning.Model
     """
     # We _must_ create a new model here, and _not_ capture it from an external
     # scope. TFF will call this within different graph contexts.
