@@ -1,5 +1,13 @@
 # Federated Learning for distributed databases
 
+
+## OH
+
+- data (< 30 MB) no need for dask
+- ml: dask can help, tensorflow connection?
+
+## Original Work
+
 This repository is divided into three main parts. These can be found in the top folders.
 
 ### PM2.5 prediction for Beijing
