@@ -4,7 +4,7 @@
 ## OH
 
 - data (< 30 MB) no need for dask
-- ml: dask can help, tensorflow connection?
+- ml: dask can boost the calculations, tensorflow connection?
 
 ### Qs@UniHamburg
 
