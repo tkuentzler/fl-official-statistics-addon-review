@@ -6,6 +6,10 @@
 - data (< 30 MB) no need for dask
 - ml: dask can help, tensorflow connection?
 
+### Qs@UniHamburg
+
+- med-insurance: DNN has also centralized problems (s. loss very high variance). DNN no good model for the problem? Missing complexity? Even stronger decentralized.
+
 ## Original Work
 
 This repository is divided into three main parts. These can be found in the top folders.
