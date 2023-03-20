@@ -1,17 +1,19 @@
 # Federated Learning for distributed databases
 
 
-## OH
+## Remarks OH
+---
 
-- data (< 30 MB) no need for dask
+### Medical Insurance
+- data (< 30 MB) no need for distributing
 - ml: dask can boost the calculations, tensorflow connection?
 
 ### Qs@UniHamburg
-
 - med-insurance: DNN has also centralized problems (s. loss very high variance). DNN no good model for the problem? Missing complexity? Even stronger decentralized.
+- lte: is the available data synthetic or real sample?
 
 ## Original Work
-
+---
 This repository is divided into three main parts. These can be found in the top folders.
 
 ### PM2.5 prediction for Beijing
