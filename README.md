@@ -2,7 +2,7 @@
 
 
 ## Remarks (Oli Hauke)
----
+
 
 ### Notes
 
@@ -13,11 +13,17 @@
 ### Qs@UniHamburg
 
 **Medical Insurance**
-- EDA (raw): 
-    - **little impact** between features and target (s. correlations)
-    - charges has highest correlation (0.3) to feature "age", explainable by increasing baseline charges with increasing age; lower bound has low variance;  (s. correlation/scatter)
+- EDA: 
+    - only feature "smoker" has a high impact on the target (s. correlations)
+    - smoker has low variation (2 class), charges has high variation in each subclass -> trees stable, but bad for DNNs?
+    - charges has 2nd highest correlation (0.3) to feature "age", explainable by increasing baseline charges with increasing age; lower bound has low variance;  (s. correlation/scatter)
     - **inhomogenity** between charges and bmi (variance proportional, s. scatter)
     - **inhomogenity** between charges and children (variance inversely proportional, s. scatter)
+- ML
+    -AutoML (Pycaret): 
+        - slightly worse performance, best $R^2= 0.85$ (5-fold cross variation)
+        - the close best model was **Gradient Boosting**
+    - TPOT: best performance $R^2 = 0.8861$ with `RandomForestRegressor(input_matrix, bootstrap=True, max_features=0.75, min_samples_leaf=11, min_samples_split=9, n_estimators=100)`
 - DNN has also centralized problems (s. loss very high variance, adapted stopping). 
     - DNN no good model for the problem? 
     - Missing complexity? Even stronger decentralized.
@@ -29,7 +35,6 @@
 - ...
 
 ## Original Work
----
 This repository is divided into three main parts. These can be found in the top folders.
 
 ### PM2.5 prediction for Beijing
