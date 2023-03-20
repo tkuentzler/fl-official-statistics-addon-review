@@ -1,16 +1,32 @@
 # Federated Learning for distributed databases
 
 
-## Remarks OH
+## Remarks (Oli Hauke)
 ---
 
-### Medical Insurance
-- data (< 30 MB) no need for distributing
-- ml: dask can boost the calculations, tensorflow connection?
+### Notes
+
+- **Medical Insurance**
+    - data (< 30 MB) no need for distributing (Dask/Spark or Federated)
+    - ml: dask can boost the calculations, tensorflow connection?
 
 ### Qs@UniHamburg
-- med-insurance: DNN has also centralized problems (s. loss very high variance). DNN no good model for the problem? Missing complexity? Even stronger decentralized.
-- lte: is the available data synthetic or real sample?
+
+**Medical Insurance**
+- EDA (raw): 
+    - **little impact** between features and target (s. correlations)
+    - charges has highest correlation (0.3) to feature "age", explainable by increasing baseline charges with increasing age; lower bound has low variance;  (s. correlation/scatter)
+    - **inhomogenity** between charges and bmi (variance proportional, s. scatter)
+    - **inhomogenity** between charges and children (variance inversely proportional, s. scatter)
+- DNN has also centralized problems (s. loss very high variance, adapted stopping). 
+    - DNN no good model for the problem? 
+    - Missing complexity? Even stronger decentralized.
+
+**LTE Umlaut**
+- is the available data synthetic or real sample?
+
+**PM Bejing**
+- ...
 
 ## Original Work
 ---
