@@ -3,7 +3,10 @@
 
 ## 2023-03-21 Meeting
 
-- ...
+- Julius im Nachgang
+    - centralized cross validation instead of train test split?
+    - Test: Funktioniert das Zentralisiert fuer die einzelnen regions?
+        - liegt es an der FL aggregation oder an den individuellen Modellen?
 
 ## Remarks (Oli Hauke)
 
