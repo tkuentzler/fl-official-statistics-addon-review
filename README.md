@@ -7,6 +7,7 @@
     - centralized cross validation instead of train test split?
     - Test: Funktioniert das Zentralisiert fuer die einzelnen regions?
         - liegt es an der FL aggregation oder an den individuellen Modellen?
+            - letzter Datensatz geht schlecht
 
 ## Remarks (Oli Hauke)
 
