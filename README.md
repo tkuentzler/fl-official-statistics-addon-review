@@ -30,7 +30,9 @@
     - DNN no good model for the problem? 
     - Missing complexity? Even stronger decentralized.
     - Reduce learning rate or batch Size? S. [Problem with high Variance](https://www.quora.com/When-training-a-neural-network-what-does-it-mean-if-the-loss-on-the-validation-set-has-high-variance-e-g-it-goes-back-and-forth-each-epoch-between-good-and-bad-loss-How-do-I-know-when-to-stop-training-the-network)
-- FL: no activation function (centrally is relu used)?
+- FL: 
+    - no activation function (centrally is relu used)?  Why another model?
+    - why has each element in  federated_insurance_data only 20 obs?
 
 **LTE Umlaut**
 - is the available data synthetic or real sample?
