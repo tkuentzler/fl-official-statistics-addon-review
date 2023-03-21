@@ -1,6 +1,10 @@
 # Federated Learning for distributed databases
 
 
+## 2023-03-21 Meeting
+
+- ...
+
 ## Remarks (Oli Hauke)
 
 
@@ -11,6 +15,11 @@
     - ml: dask can boost the calculations, tensorflow connection?
 
 ### Qs@UniHamburg
+
+**General**
+- planning: paper release? 
+- collaboration?
+
 
 **Medical Insurance**
 - EDA: 
