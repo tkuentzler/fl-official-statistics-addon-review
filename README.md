@@ -27,8 +27,6 @@ if os.path.exists("fl-official-statistics-addon"):
 
 # clone
 !git clone https://github.com/Olhaau/fl-official-statistics-addon
-# the repo gets cloned to gdrive and available in the current runtime 
-%cd fl-official-statistics-addon
 
 # pull (the currenct version of the repo)
 !git pull
