@@ -1,20 +1,24 @@
 # Federated Learning for distributed databases
 
-Based on the repo [fl-official-statistcs](https://github.com/joshua-stock/fl-official-statistics) this repo investigates further the feasability of Federated Learning for Official Statistics.
+Based on [fl-official-statistcs](https://github.com/joshua-stock/fl-official-statistics) this repo investigates further the feasability of Federated Learning for Official Statistics.
 
 ## Setup
 
+more possible environment (e.g. local, R-Server) tba.
+
 ### Google Colab
+
+Required:
+
+- google account with ...
+- connected google colab
+- activated google drive
 
 Open a new notebook in Google Colab. This starts a new session with nothing installed or available in memory. S. [How to use Google Colaboratory to clone a GitHub Repository to your Google Drive? (Medium)](https://medium.com/@ashwindesilva/how-to-use-google-colaboratory-to-clone-a-github-repository-e07cf8d3d22b).
 
 ```python
 !git clone https://github.com/Olhaau/fl-official-statistics-addon
 ```
-
-### More
-
-tba: local, ...
 
 ## Repo Structure
 
