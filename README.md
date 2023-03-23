@@ -21,7 +21,7 @@ Open a new notebook in Google Colab. This starts a new session (called runtime) 
 ```python
 from google.colab import drive
 
-# connect gdrive and the current runtime of colab
+# connect gdrive and the current colab runtime
 drive.mount('/content/gdrive')
 %cd gdrive/My Drive
 
