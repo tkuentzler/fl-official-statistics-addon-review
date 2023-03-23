@@ -1,15 +1,17 @@
 # Federated Learning for distributed databases
 
 
-## _dev
+## Repo Structure
 
-## archive
+### _dev
 
-## original_work
+### archive
+
+### original_work
 
 This folder contains the original repository. It is divided into three main parts. These can be found in the contained top folders.
 
-### PM2.5 prediction for Beijing
+#### PM2.5 prediction for Beijing
 
 The pm-beijing folder contains data with weather and air pollution data and can be used to predict the PM2.5 concentration in the air. The folder contains the following subfolders and files:
 * data: The pm25 beijing dataset
@@ -24,7 +26,7 @@ The pm-beijing folder contains data with weather and air pollution data and can 
 * pm25_hyperparametersearch.ipynb: A hyperparametersearch for optimising the model
 * pm25_local_models.ipynb: A local model for each station is trained here
 
-### LTE data from Umlaut
+#### LTE data from Umlaut
 
 This folder contains everything related to Umlaut and their data. As the original data from Umlaut is not accessible it contains only short dummy data to test the models.
 * data: The data files, both files hold the same kind of information, however be aware that the name of the features differ slightly
@@ -32,7 +34,7 @@ This folder contains everything related to Umlaut and their data. As the origina
 * lte_hyperparametersearch.ipynb: A hyperparametersearch for different models
 * umlaut_lte.py: A python module containing some functions used by the notebooks
 
-### Medical insurance data
+#### Medical insurance data
 
 Everything concerning the medical insurance data is stored here. This dataset is used to calculate charges a person has to pay and contains data as age, sex, BMI, smoker, number of children and region.
 * data: The medical insurance data
