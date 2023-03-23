@@ -10,7 +10,7 @@ more possible environment (e.g. local, R-Server) tba.
 
 Required:
 
-- google account with ...
+- google account with
 - connected google colab
 - activated google drive
 
