@@ -38,7 +38,7 @@ drive.mount('/content/gdrive')
 
 After you have made changes to your notebook, you can commit and push them to the repository. To do so from within a Colab notebook, click File → Save a copy in GitHub. You will be prompted to add a commit message, and after you click OK, the notebook will be pushed to your repository (s. https://bebi103a.github.io/lessons/02/git_with_colab.html). 
 
-For possible solutions from within a notebook s. [stackoverflow/how-to-push-from-colab-to-github](https://stackoverflow.com/questions/59454990/how-to-push-from-colab-to-github)
+For possible solutions from within a notebook s. [stackoverflow/how-to-push-from-colab-to-github](https://stackoverflow.com/questions/59454990/how-to-push-from-colab-to-github).
 
 ## Repo Structure
 
