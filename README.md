@@ -1,5 +1,20 @@
 # Federated Learning for distributed databases
 
+Based on the repo [fl-official-statistcs](https://github.com/joshua-stock/fl-official-statistics) this repo investigates further the feasability of Federated Learning for Official Statistics.
+
+## Setup
+
+### Google Colab
+
+Open a new notebook in Google Colab. This starts a new session with nothing installed or present in memory.
+
+```python
+!git clone https://github.com/Olhaau/fl-official-statistics-addon
+```
+
+### Local
+
+tba
 
 ## Repo Structure
 
