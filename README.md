@@ -31,7 +31,8 @@ drive.mount('/content/gdrive')
 %cd fl-official-statistics-addon
 
 # pull (the currenct version of the repo)
-!git pull```
+!git pull
+```
 
 #### Push changes
 
