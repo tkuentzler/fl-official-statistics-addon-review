@@ -6,15 +6,15 @@ Based on the repo [fl-official-statistcs](https://github.com/joshua-stock/fl-off
 
 ### Google Colab
 
-Open a new notebook in Google Colab. This starts a new session with nothing installed or present in memory.
+Open a new notebook in Google Colab. This starts a new session with nothing installed or available in memory. S. [How to use Google Colaboratory to clone a GitHub Repository to your Google Drive? (Medium)](https://medium.com/@ashwindesilva/how-to-use-google-colaboratory-to-clone-a-github-repository-e07cf8d3d22b).
 
 ```python
 !git clone https://github.com/Olhaau/fl-official-statistics-addon
 ```
 
-### Local
+### More
 
-tba
+tba: local, ...
 
 ## Repo Structure
 
