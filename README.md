@@ -19,7 +19,6 @@ Open a new notebook in Google Colab. This starts a new session (called runtime) 
 #### Pull this repo
 
 ```python
-from google.colab import drive
 import os
 
 # rm repo from gdrive
