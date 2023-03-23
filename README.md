@@ -16,14 +16,19 @@ Required:
 
 Open a new notebook in Google Colab. This starts a new session (called runtime) with nothing installed or available in memory. S. [How to use Google Colaboratory to clone a GitHub Repository to your Google Drive? (Medium)](https://medium.com/@ashwindesilva/how-to-use-google-colaboratory-to-clone-a-github-repository-e07cf8d3d22b).
 
-#### Pull repo
+#### Pull this repo
 
 ```python
 from google.colab import drive
+import os
 
 # connect gdrive and the current colab runtime
 drive.mount('/content/gdrive')
 %cd gdrive/My Drive
+
+# rm repo from gdrive
+if os.path.exists("fl-official-statistics-addon"):
+  %rm -r fl-official-statistics-addon
 
 # clone
 !git clone https://github.com/Olhaau/fl-official-statistics-addon
