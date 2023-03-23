@@ -16,9 +16,28 @@ Required:
 
 Open a new notebook in Google Colab. This starts a new session (called runtime) with nothing installed or available in memory. S. [How to use Google Colaboratory to clone a GitHub Repository to your Google Drive? (Medium)](https://medium.com/@ashwindesilva/how-to-use-google-colaboratory-to-clone-a-github-repository-e07cf8d3d22b).
 
+#### Pull repo
+
 ```python
+from google.colab import drive
+
+# connect gdrive and the current runtime of colab
+drive.mount('/content/gdrive')
+%cd gdrive/My Drive
+
+# clone
 !git clone https://github.com/Olhaau/fl-official-statistics-addon
-```
+# the repo gets cloned to gdrive and available in the current runtime 
+%cd fl-official-statistics-addon
+
+# pull (the currenct version of the repo)
+!git pull```
+
+#### Push changes
+
+After you have made changes to your notebook, you can commit and push them to the repository. To do so from within a Colab notebook, click File → Save a copy in GitHub. You will be prompted to add a commit message, and after you click OK, the notebook will be pushed to your repository (s. https://bebi103a.github.io/lessons/02/git_with_colab.html). 
+
+For possible solutions from within a notebook s. [stackoverflow/how-to-push-from-colab-to-github](https://stackoverflow.com/questions/59454990/how-to-push-from-colab-to-github)
 
 ## Repo Structure
 
