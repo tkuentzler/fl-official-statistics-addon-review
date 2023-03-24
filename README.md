@@ -60,7 +60,7 @@ tba: Federated Learning for the medical insurance data.
 
 - **output:** processed data, generated plots and reports
 - **archive:** some raw notebooks. Relevant code will in the future be transfered to _dev.
-- **doc:** contains notes on meeting. 
+- **doc:** contains notes on meetings. 
 
 
 ### original_work
