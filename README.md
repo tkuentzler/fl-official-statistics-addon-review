@@ -58,8 +58,10 @@ tba: Federated Learning for the medical insurance data.
 
 ### Other folders
 
+- **output:** processed data, generated plots and reports
 - **archive:** some raw notebooks. Relevant code will in the future be transfered to _dev.
-- 
+- **doc:** contains notes on meeting. 
+
 
 ### original_work
 
