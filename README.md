@@ -44,6 +44,11 @@ For possible solutions from within a notebook s. [stackoverflow/how-to-push-from
 
 #### 00_...
 
+### Other folders
+
+- archive: some raw notebooks. Relevant code will be transfered to _dev
+- 
+
 ### archive
 
 Some old experients and test. Can be ignored in most cases.
