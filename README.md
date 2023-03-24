@@ -1,6 +1,6 @@
 # Federated Learning for distributed databases
 
-Based on [fl-official-statistcs](https://github.com/joshua-stock/fl-official-statistics) this repo investigates further the feasability of Federated Learning for Official Statistics.
+In this repo, I review Olhaau's extensions to [fl-official-statistcs](https://github.com/joshua-stock/fl-official-statistics) in [fl-official-statistcs-addon](https://github.com/Olhaau/fl-official-statistics-addon) about the feasability of Federated Learning for Official Statistics. Original code and the following instructions come from Olhaau and joshua-stock.
 
 ## Setup
 
