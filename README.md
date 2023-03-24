@@ -42,16 +42,24 @@ For possible solutions from within a notebook s. [stackoverflow/how-to-push-from
 
 ### _dev
 
-#### 00_...
+Main development code can be found here as jupyter-notebooks. Currently available:
+
+#### 01_insurance_prep_eda_baselines
+
+For the medical insurance data, this notebook contains the preprocessing, EDA and baselines by classical ML-algorithms. To fastly calculate the baselines, AutoML is used, e.g. pycaret and TPOT.
+
+#### 02_insurance_DNN
+
+Tests the performance of deep neural networks (DNN) for a centralized (non federated approach) as another baseline. Further experiments try to improve the performance, stablize the training and investigates regional differences in the datasets.
+
+#### 03_insurance_federated
+
+tba: Federated Learning for the medical insurance data.
 
 ### Other folders
 
-- archive: some raw notebooks. Relevant code will be transfered to _dev
+- **archive:** some raw notebooks. Relevant code will in the future be transfered to _dev.
 - 
-
-### archive
-
-Some old experients and test. Can be ignored in most cases.
 
 ### original_work
 
